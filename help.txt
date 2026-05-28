@@ -1,0 +1,5 @@
+# Первый раз (интерактивно)
+docker-compose run bot
+
+# Потом в фоне
+docker-compose up -d

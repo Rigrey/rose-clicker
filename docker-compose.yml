@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: telegram-bot
+    volumes:
+      - ./my_account.session:/app/my_account.session
+      - ./.env:/app/.env
+    restart: unless-stopped
+    # Интерактивный режим только для первого запуска
+    # tty: true
+    # stdin_open: true
