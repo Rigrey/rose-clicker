@@ -353,4 +353,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Session files
+*.session
+*.session-journal
+
 # End of https://www.toptal.com/developers/gitignore/api/dotenv,pythonvanilla,python,windows,linux,archlinuxpackages,pycharm+all,dotnetcore
